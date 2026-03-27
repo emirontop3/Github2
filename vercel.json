@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/raw/:user/:repo/:path*",
+      "destination": "/api/raw?user=:user&repo=:repo&path=:path*"
+    }
+  ]
+}
